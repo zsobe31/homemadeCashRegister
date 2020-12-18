@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Házi pénztár</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <h1>Házi pénztár</h1> -->
+
+    <div id="card">
+        <input type="text" id="datetime" placeholder="Az adatfelvitel ideje">
+        <!-- <p id="dateTime"></p> -->
+        <input type="text" id="amount" placeholder="összeg">
+        <button id="store">Rögzít</button>
+        <p>Az egyenleged: <span id="balance">0</span></p>
+        <table id="transactions">
+            <th>#</th>
+            <th>Dátum</th>
+            <th>Öszzeg</th>
+            <th>Műveletek</th>
+        </table>
+        <div id="templates">
+            <table>
+                <tr class="transaction-row transaction-row-template">
+                    <td class="transaction-id"></td>
+                    <td class="transaction-date"></td>
+                    <td class="transaction-amount"></td>
+                    <td class="transaction-operations">
+                        <button class="delete-transaction" data-id="">Törlés</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <script src="/app.js"></script>
+    </div>
+
+</body>
+
+</html>

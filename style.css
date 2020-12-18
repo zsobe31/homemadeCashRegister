@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(212, 207, 206);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, .2);
+}
+
+input {
+    margin: 10px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#store {
+    padding: 5px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: rgb(30, 119, 45);
+    color: bisque;
+    margin-bottom: 20px;
+}
+
+.invalid {
+    border: 4px solid red;
+}
+
+#templates {
+    display: none;
+}
+
+#transactions {
+    border-collapse: collapse;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, .3); */
+}
+
+#transactions td,
+#transactions th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#transactions tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#transactions tr:hover {
+    background-color: #ddd;
+}
+
+#transactions th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #ce874e;
+    color: rgb(236, 229, 229);
+}
+
+#transactions button {
+    padding: 2px 8px;
+    background-color: tomato;
+    color: whitesmoke;
+    border-radius: 5px;
+}
